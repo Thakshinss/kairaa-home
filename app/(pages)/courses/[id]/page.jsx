@@ -25,15 +25,21 @@ function CourseDetails({params}) {
 
   return (
     <section>
-      <div>
-          <Image
+      <div >
+        <div className='items-center justify-evenly md:flex px-7'>
+        <Image
             src={course.img}
             width={500}
             height={500}
             alt="Picture of the author"/>
-        <h1>{course.name}</h1>
-        <p>{course.description}</p>
-        <p>{course.duration}</p>
+            <div>
+              <h1 className='text-2xl font-bold md:4xl lg:text-6xl'>{course.name}</h1>
+              <p>{course.description}</p>
+            </div>
+        </div>
+          
+        
+
         
         {
           course.topics?.map((topic,i)=>(

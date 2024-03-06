@@ -26,7 +26,7 @@ function Explore() {
                   width={300}
                   height={400}
                   alt="Picture of the author"/>
-                  <h1>{course.name}</h1>
+                  <h1 className='pt-2 text-xl font-semibold'>{course.name}</h1>
               </div>  
             </Link>
           ))
