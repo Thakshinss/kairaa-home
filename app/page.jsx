@@ -9,7 +9,7 @@ import About from "./(pages)/about/page";
 import { redirect } from "next/navigation";
 
 export default function Home() {
-  redirect('/homee');
+  redirect('/home');
   // return (
   //   <main className="flex flex-col items-center justify-between min-h-screen">
 
