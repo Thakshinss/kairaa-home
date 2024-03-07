@@ -44,7 +44,7 @@ const address = [
   },
   {
     id:1,
-    name:"131, 2nd floor, DB Road, RS Puram, <br/> Coimbatore - 641002.",
+    name:"131, 2nd floor, DB Road, RS Puram,Coimbatore - 641002.",
     logo:<MapPin />
   },
 ]
@@ -52,9 +52,9 @@ const address = [
 
 function Footer() {
   return (
-    <footer className='md:px-20 pt-10 pb-10 text-white bg-slate-700 text-center px-6'>
-      <div className='md:flex flex-wrap justify-between'>
-        <div className='w-full md:w-2/4 lg:w-1/4 pr-4'>
+    <footer className='px-6 pt-10 pb-10 text-center text-white md:px-20 bg-slate-700'>
+      <div className='flex-wrap justify-between md:flex'>
+        <div className='w-full pr-4 md:w-2/4 lg:w-1/4'>
           <Title>About Us</Title>
           
     
@@ -70,7 +70,7 @@ function Footer() {
             ))}
           </ul>
         </div>
-        <div className='w-full md:w-2/4 lg:w-1/4 mt-2'>
+        <div className='w-full mt-2 md:w-2/4 lg:w-1/4'>
           <Title>Resources</Title>
           <ul className='flex flex-col '>
             {resources.map((activity)=>(
@@ -82,8 +82,8 @@ function Footer() {
           <Title>Get in Touch</Title>
           <ul>
             {address.map((activity)=>(
-              <li key={activity.id} className=' flex justify-center items-center'>
-                <div className='flex mt-2 gap-2'>
+              <li key={activity.id} className='flex items-center justify-center '>
+                <div className='flex gap-2 mt-2'>
                   <p>{activity.logo}</p>
                   <p>{activity.name}</p>
                 </div>
@@ -92,7 +92,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className='md:flex items-center justify-center mt-8 text-center'>
+      <div className='items-center justify-center mt-8 text-center md:flex'>
       © 2024 KAIRAAACADEMY.COM. All rights reserved.
       </div>
     </footer>
