@@ -2,8 +2,8 @@ const courses = [
     {
       id:1,
       name:"HTML ,CSS,JavaScript Training",
-      description:10,
-      duration:"",
+      description:'A Comprehensive Guide for Beginners interested in learning HTML, CSS, & JavaScript to Build Interactive Web Pages.',
+      duration:"90 hours",
       img:"/course/htmlcss.png",
       topics:[
         {
@@ -224,7 +224,7 @@ const courses = [
     {
       id:2,
       name:"C and C++ COURSE",
-      description:12,
+      description:"C Programming and C++ Programming Learn both at your own pace",
       duration:"",
       img:"/course/c++.jpeg",
       topics:[
@@ -511,7 +511,7 @@ const courses = [
     {
       id:3,
       name:"PHP course",
-      description:3,
+      description:"The modern PHP course with a project, challenges and theory. Includes SQL and MVC Framework. Get started with PHP 8!",
       duration:"",
       img:'/course/php.png',
       topics:[
@@ -663,8 +663,8 @@ const courses = [
     {
       id:4,
       name:"Advanced Java Training",
-      description:20,
-      duration:"6 month",
+      description:"Acquire Key Java Skills: From Basics to Advanced Programming &amp; Certification - Start Your Dev Career",
+      duration:"",
       img:'/course/java.jpg',
       topics:[
         {
@@ -1417,7 +1417,7 @@ const courses = [
     {
       id:5,
       name:"Flutter",
-      description:10,
+      description:"A Complete Guide to the Flutter SDK &amp; Flutter Framework for building native iOS and Android apps",
       duration:"",
       img:"/course/flutter.jpeg",
       topics:[

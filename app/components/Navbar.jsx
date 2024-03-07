@@ -10,7 +10,7 @@ const navLink = [
   {
     id:5,
     name:"Home",
-    path:"/homee"
+    path:"/home"
   },
   // {
   //   id:1,
@@ -43,7 +43,7 @@ const Navbar = () => {
   return (
 
     <nav className='' >
-      <div className='hidden md:flex justify-between px-10 py-2 text-white bg-blue-600'>
+      <div className='justify-between hidden px-10 py-2 text-white bg-blue-600 md:flex'>
         <h1>Mon - Sat : 11AM IST - 7PM IST</h1>
         <h1>Call: +91-7092774077</h1>
         <h1>Email: Support@kairaaacademy.com</h1>
@@ -60,7 +60,7 @@ const Navbar = () => {
       <ul className='flex-col justify-between hidden w-2/4 md:flex md:flex-row '>
         {
           navLink.map((link)=>(
-              <Link className={`${pathname === link.path ? 'active' : ''}`} href={link.path} key={link.id}>{link.name}</Link>
+              <Link className={`${pathname === link.path ? 'active' : 'font-semibold text-slate-700'}`} href={link.path} key={link.id}>{link.name}</Link>
           ))
         }
       </ul>
@@ -77,7 +77,7 @@ const Navbar = () => {
                       ? 'border-l-2 border-primary bg-blue-200'
                       : 'hidden'
                   }`}>
-          <div className='border flex flex-col'>
+          <div className='flex flex-col border'>
           {
           navLink.map((link)=>(
               <Link onClick={()=>setIsOpen(!isOpen)} className={`p-4 border ${pathname === link.path ? 'active' : ''}`} href={link.path} key={link.id}>{link.name}</Link>

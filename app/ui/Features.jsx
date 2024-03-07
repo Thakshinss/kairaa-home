@@ -31,15 +31,15 @@ const features = [
 
 function Features() {
   return (
-    <section className='px-5 md:px-24 pt-10 my-12 text-center bg-slate-50 md:py-10'>
-      <h1 className='pb-6 mt-5 text-3xl md:text-4xl font-extrabold '>We Offer Innovative <span className='text-blue-600'>Online Classroom</span> </h1>
-      <p className='md:text-lg font-semibold'>Kairaa Blockchain Academy outstanding feature is its wide range of educational materials,<br />
+    <section className='px-5 pt-10 my-12 text-center md:px-24 bg-slate-100 md:py-10'>
+      <h1 className='pb-6 mt-5 text-3xl font-extrabold md:text-4xl '>We Offer Innovative <span className='text-blue-600'>Online Classroom</span> </h1>
+      <p className='font-semibold md:text-lg'>Kairaa Blockchain Academy outstanding feature is its wide range of educational materials,<br />
          designed to assist students in understanding and retaining the subject by offering a diverse collection of learning resources.</p>
       
       <div className='justify-between pt-10 md:flex'>
         {
           features.map((feature)=>(
-            <div key={feature.id} className='md:2/4 lg:w-1/4 pt-4 m-3 border rounded-md p-7 ' >
+            <div key={feature.id} className='pt-4 m-3 border rounded-md md:2/4 lg:w-1/4 p-7 ' >
               <div className='flex items-center justify-center'>{feature.logo}</div>
               <div>
                 <h1 className='pb-4 text-xl font-semibold'>{feature.name}</h1>
