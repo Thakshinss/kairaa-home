@@ -18,10 +18,10 @@ function Courses() {
         
       })
   }, [])
-  console.log("THE DATA ISSSSs",JSON.stringify(courses));
+  // console.log("THE DATA ISSSSs",JSON.stringify(courses));
   
   return (
-    <div className='flex flex-wrap justify-between'>
+    <div className='grid justify-between gap-5 px-10 md:grid-cols-2 lg:grid-cols-3'>
       {courses.map((c)=>(
         <Link key={c.id} href={`/courses/${c.id}`}>
           <div>
@@ -31,7 +31,7 @@ function Courses() {
             height={500}
             alt="Picture of the author"/>
             <div>
-              <h1 className='text-xl font-bold'>{c.name}</h1>
+              <h1 className='text-2xl font-bold'>{c.name}</h1>
               <p>{c.description}</p>
             </div>
             
