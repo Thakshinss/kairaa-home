@@ -52,37 +52,37 @@ const address = [
 
 function Footer() {
   return (
-    <footer className='px-6 pt-10 pb-10 text-center text-white md:px-20 bg-slate-700'>
-      <div className='flex-wrap justify-between md:flex'>
-        <div className='w-full pr-4 md:w-2/4 lg:w-1/4'>
+    <footer className='px-6 pt-10 pb-10 text-center text-white bg-blue-900 md:px-20'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4'>
+        <div className='w-full pr-4 text-left'>
           <Title>About Us</Title>
           
     
           <p className='pt-2'>Kairaa Blockchain Academy is a top-notch online learning 
             center that offers a wide range of courses.</p>
         </div>
-        <div className='w-full md:w-2/4 lg:w-1/4'>
+        <div className='w-full text-left'>
           {/* <Title>Quick Links</Title> */}
           <Title>Quick Links</Title>
-          <ul>
+          <ul className='text-left'>
             {links.map((activity)=>(
-              <li key={activity} className='md:p-2'>{activity}</li>
+              <li key={activity} className='pt-2'>{activity}</li>
             ))}
           </ul>
         </div>
-        <div className='w-full mt-2 md:w-2/4 lg:w-1/4'>
+        <div className='text-left'>
           <Title>Resources</Title>
           <ul className='flex flex-col '>
             {resources.map((activity)=>(
-              <Link href={activity.path} key={activity.id} className='md:p-2'>{activity.name}</Link>
+              <Link href={activity.path} key={activity.id} className='md:pt-2'>{activity.name}</Link>
             ))}
           </ul>
         </div>
-        <div className='w-full md:w-2/4 lg:w-1/4'>
+        <div className='w-full text-left'>
           <Title>Get in Touch</Title>
           <ul>
             {address.map((activity)=>(
-              <li key={activity.id} className='flex items-center justify-center '>
+              <li key={activity.id} className='flex '>
                 <div className='flex gap-2 mt-2'>
                   <p>{activity.logo}</p>
                   <p>{activity.name}</p>

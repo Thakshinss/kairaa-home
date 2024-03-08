@@ -13,7 +13,7 @@ function Header() {
                 <Link href='/contact' className='flex items-center justify-center gap-2 p-4 mt-16 text-center text-white bg-blue-600'>Explore Courses <MoveRight /></Link>
             </div>
         </div>
-        <div className='p-3 border-4 border-blue-600 rounded-lg border-wi'>
+        <div className='p-3 rounded-lg'>
           <Image 
           className='hidden rounded-lg md:flex'
             src="/home2.jpeg"

@@ -19,16 +19,22 @@ function Explore() {
       <div className='flex flex-wrap items-center justify-evenly pt-14'>
         {
           courses.slice(0, 3).map((course,i)=>(
-            <Link key={i} href={`/courses/${course.id} ` }>
-              <div>
-                  <Image
-                  src={course.img}
-                  width={300}
-                  height={400}
-                  alt="Picture of the author"/>
-                  <h1 className='pt-2 text-xl font-semibold'>{course.name}</h1>
-              </div>  
-            </Link>
+            <Link key={course.id} href={`/courses/${course.id}`} className='w-auto border rounded-lg'>
+          <div>
+            <Image
+            className='rounded-lg'
+            src={course.img}
+            width={300}
+            height={300}
+            alt="Picture of the author"/>
+            <div className='p-4'>
+              <h1 className='pt-3 text-2xl font-semibold'>{course.name}</h1>
+              <p>62 modules</p>
+              
+            </div>
+            
+          </div>
+        </Link>
           ))
         }
         <Link href='/courses' className='p-5 text-white bg-blue-600 rounded-full'>

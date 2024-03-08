@@ -55,7 +55,7 @@ function Contact() {
           <div className={` mx-auto pt-10 pb-6 flex flex-col-reverse xl:flex-row`} >
             <div className="flex items-center justify-center w-full">
                   <div>
-                    <p className="z-50 pb-8 text-3xl md:text-6xl font-extrabold text-center text-white uppercase">
+                    <p className="z-50 pb-8 text-3xl font-extrabold text-center text-white uppercase md:text-6xl">
                       Contact Us
                     </p>
                     
@@ -65,7 +65,7 @@ function Contact() {
 
         </section>
         <section >
-          <div className='md:flex justify-between md:px-20 px-10'>
+          <div className='justify-between px-10 md:flex md:px-20'>
             <div>
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7648190412674!2d80.16218697428296!3d12.922831587388082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424bead677b3c9a5%3A0x9f8bd89bdca64146!2sKairaa%20Tech%20serve%20pvt%20ltd!5e0!3m2!1sen!2sin!4v1708402923939!5m2!1sen!2sin"  height="580" className='bottom-0 md:w-1/2 lg:w-[600px]' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -75,9 +75,9 @@ function Contact() {
           <div className='flex flex-wrap justify-between px-20 mt-7'>
             {
               locations.map((location)=>(
-                <div key={location.id} className='w-full md:w-1/4 p-10 m-2 text-center bg-blue-200 border rounded-lg '>
+                <div key={location.id} className='w-full p-5 m-2 text-center bg-blue-200 border rounded-lg md:p-10 md:w-1/4 '>
                   <h1 className='pb-3 text-2xl font-extrabold'>{location.name}</h1>
-                  <p>{location.loca}</p>
+                  <p className='text-wrap'>{location.loca}</p>
                 </div>
               ))
             }

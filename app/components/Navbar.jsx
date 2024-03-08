@@ -60,7 +60,7 @@ const Navbar = () => {
       <ul className='flex-col justify-between hidden w-2/4 md:flex md:flex-row '>
         {
           navLink.map((link)=>(
-              <Link className={`${pathname === link.path ? 'active' : 'font-semibold text-slate-700'}`} href={link.path} key={link.id}>{link.name}</Link>
+              <Link className={`${pathname === link.path ? 'active' : 'font-semibold text-slate-700 font-sans'}`} href={link.path} key={link.id}>{link.name}</Link>
           ))
         }
       </ul>

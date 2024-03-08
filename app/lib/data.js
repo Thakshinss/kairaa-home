@@ -1,7 +1,7 @@
 const courses = [
     {
       id:1,
-      name:"HTML ,CSS,JavaScript Training",
+      name:"HTML ,CSS,JavaScript",
       description:'A Comprehensive Guide for Beginners interested in learning HTML, CSS, & JavaScript to Build Interactive Web Pages.',
       duration:"90 hours",
       img:"/course/htmlcss.png",

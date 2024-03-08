@@ -21,18 +21,20 @@ function Courses() {
   // console.log("THE DATA ISSSSs",JSON.stringify(courses));
   
   return (
-    <div className='grid justify-between gap-5 px-10 md:grid-cols-2 lg:grid-cols-3'>
+    <div className='grid justify-between gap-5 px-10 py-4 md:grid-cols-2 lg:grid-cols-3'>
       {courses.map((c)=>(
-        <Link key={c.id} href={`/courses/${c.id}`}>
+        <Link key={c.id} href={`/courses/${c.id}`} className='border rounded-lg'>
           <div>
             <Image
+            className='rounded-lg'
             src={c.img}
             width={500}
             height={500}
             alt="Picture of the author"/>
-            <div>
-              <h1 className='text-2xl font-bold'>{c.name}</h1>
-              <p>{c.description}</p>
+            <div className='p-4'>
+              <h1 className='pt-3 text-2xl font-semibold'>{c.name}</h1>
+              <p>62 modules</p>
+              
             </div>
             
           </div>
