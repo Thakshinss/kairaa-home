@@ -1671,6 +1671,311 @@ const courses = [
           ]
         }
       ]
+    },
+    {
+      id:8,
+      name:"Fundamentals of Blockchain",
+      description:'Learn everything you need to know about cryptocurrency and blockchain, including investing, mining and much more!',
+      duration:"90 hours",
+      img:"/course/blockchain.jpg",
+      topics:[
+        {
+          id:1,
+          name:'Day 1:Introduction to Blockchain',
+          content:[
+            'Overview of Blockchain Technology',
+            'Historical Context and Evolution',
+          ]
+        },
+        {
+          id:2,
+          name:'Day 2:',
+          content:[
+            'Components of Blockchain',
+            'Types of Blockchains',
+            'Blockchain vs. Traditional Database',
+
+          ]
+        },
+        {
+          id:3,
+          name:'Day 3:Cryptography, Consensus, and Mining',
+          content:[
+           'Cryptography Basics',
+           'Hash Functions'
+
+          ]
+        },
+        {
+          id:4,
+          name:'Day 4',
+          content:[
+            'Consensus Mechanisms',
+            'Mining in Blockchain',
+            'Distributed Ledger Technology',
+
+          ]
+        },
+        {
+          id:5,
+          name:'Day 5: Blockchain Architecture and Merkle Trees',
+          content:[
+            'Blockchain Network Architecture',
+            'Transaction Lifecycle',
+          ]
+        },
+        {
+          id:6,
+          name:'Day 6',
+          content:[
+            'Blocks and Chains',
+            'Merkle Trees',
+          ]
+        },
+        {
+          id:7,
+          name:'Day 7: Decentralization, Security, and Cybersecurity',
+          content:[
+            'Decentralization and Trust',
+            'Forks and Consensus Algorithms',
+          ]
+        },
+        {
+          id:8,
+          name:'Day 8',
+          content:[
+            'Network Security',
+            'Cybersecurity Concepts in Blockchain',
+          ]
+        },
+        {
+          id:9,
+          name:'Day 9: Blockchain Use Cases',
+          content:[
+            'Use Cases of Blockchain',
+            'Industry Adoption and Trends',
+          ]
+        },
+        {
+          id:10,
+          name:'Day 10',
+          content:[
+            'Challenges and Limitations',
+            'Case Study: Bitcoin',
+          ]
+        },
+        {
+          id:11,
+          name:'Day 11: Other Blockchain Platforms',
+          content:[
+            'Ethereum and Smart Contracts Overview'
+          ]
+        },
+        {
+          id:12,
+          name:'Day 12',
+          content:[
+            'Hyperledger Fabric and Corda',
+            'Ripple and Interbank Transactions'
+          ]
+        },
+        {
+          id:13,
+          name:'Day 13-16:Layer 1 & Layer 2 Blockchains',
+          content:[
+            'What is Layer1 Blockchain',
+            'Understanding of Layer1 Blockchain',
+            'Layer 1 Blockchain Architecture',
+            'Examples of Layer1 Blockchain',
+            'Case Studies of Layer1 Blockchain',
+            'Layer2 Blockchain',
+            'Understanding of Layer2 Blockchain Architecture',
+            'Solana Blockchain (Layer 1)',
+            'Binance Blockchain (Layer 2)',
+            'Cosmos Blockchain (Layer 1) ',
+            'Polygon Blockchain (Layer 2)',
+
+          ]
+        },
+        {
+          id:14,
+          name:'Day 17: Real World Applications of Blockchain',
+          content:[
+            'Supply Chain and Healthcare',
+            'Voting Systems and Governance',
+            'Education',
+            'Fintech',
+
+          ]
+        },
+        {
+          id:15,
+          name:'Day 18: Decentralised Applications (DApps), Use Cases, and Cybersecurity',
+          content:[
+            'Challenges in Real-world Implementations',
+            'Hashing Algorithms in Blockchain',
+            'Decentralised Applications (DApps)',
+            'Use Cases of Smart Contracts'
+
+          ]
+        },
+        {
+          id:16,
+          name:'Day 19',
+          content:[
+            'Security Considerations',
+            'Cybersecurity in Smart Contracts'
+          ]
+        },
+        {
+          id:17,
+          name:'Day 20: Ethereum 2.0, Tokenization, and Mining',
+          content:[
+            'Ethereum 2.0 and Proof of Stake',
+            'ERC Standards',
+          ]
+        },
+        {
+          id:18,
+          name:'Day 20: Ethereum 2.0, Tokenization, and Mining',
+          content:[
+            'Ethereum 2.0 and Proof of Stake',
+            'ERC Standards'
+          ]
+        },
+        {
+          id:19,
+          name:'Day 21',
+          content:[
+            'Tokenisation',
+            'ICOs and Mining Pools'
+          ]
+        },
+        {
+          id:20,
+          name:'Day 22-23: Coins Vs Tokens ',
+          content:[
+            'What is Crypto coin ?',
+            'What is a Token',
+            'ERC 20 & ERC 721',
+            'Creating our Token ',
+            'Publishing our Token',
+          ]
+        },
+        {
+          id:21,
+          name:'Day 24-25: Legal, Ethical, and Environmental Considerations',
+          content:[
+            'Legal Aspects of Blockchain',
+            'Intellectual Property and Patents',
+            'Ethical Considerations in Blockchain',
+            'Environmental Concerns',
+            'Social Impact of Blockchain',
+            'Inclusion and Accessibility',
+            'Data Privacy and GDPR',
+          ]
+        },
+        {
+          id:22,
+          name:'Day 26-27:Mining',
+          content:[
+            'Introduction to Mining',
+            'Why Mining?',
+            'Who are Miners?',
+            'Miners process',
+            'Bitcoin Mining Process',
+            'Ethereum Mining Process',
+            'Solana ',
+            'Polygon'
+          ]
+        },
+        {
+          id:23,
+          name:'Day 24-25:ICO/IDO/IEO',
+          content:[
+            'ICO & its Process',
+            'IDO, its importance and its process',
+            'IEO and its process'
+          ]
+        },
+        {
+          id:24,
+          name:'Day 30-32:Centralised Exchanges',
+          content:[
+            'Understanding about Centralised Exchanges',
+            'Wallets',
+            'Trading in Centralised Exchanges',
+            'Architecture of Exchange'
+
+          ]
+        },
+        {
+          id:25,
+          name:'Day 33-33:Decentralised Exchanges',
+          content:[
+            'Understanding Decentralised Exchanges',
+            'Decentralised Wallets',
+            'Architecture of Decentralised Exchanges'
+          ]
+        },
+        {
+          id:26,
+          name:'Day 36:Public / Private and Hybrid Blockchain',
+          content:[
+            'Case Studies by understanding its Architecture and its usage'
+          ]
+        },
+        {
+          id:27,
+          name:'Day 37: Project',
+          content:[
+            'Token Creation' ,
+            'Publishing of tokens'
+          ]
+        },
+        {
+          id:28,
+          name:'Day 38:Project  Presentation',
+          content:[
+            'Case Study : Blockchain in Healthcare',
+            'Presentation, Architecture,working process and concepts '
+          ]
+        },
+        {
+          id:29,
+          name:'Day 39:Project Presentation',
+          content:[
+            'Case Study : Blockchain in Immigration'
+          ]
+        },
+        {
+          id:30,
+          name:'Day 40: Complete Summary of the Course',
+          content:[
+            
+          ]
+        },
+        {
+          id:30,
+          name:'Day 41 : Q & A ',
+          content:[
+          ]
+        },
+        {
+          id:31,
+          name:'Day 42 - Day 44 : Preparation for Exam',
+          content:[
+            
+          ]
+        },
+        {
+          id:32,
+          name:'Day 45 : Exam for certification',
+          content:[
+            
+          ]
+        },
+      ]
     }
   ]
   

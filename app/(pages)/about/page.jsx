@@ -3,6 +3,7 @@
 import { MoveRight } from 'lucide-react'
 import { redirect } from 'next/dist/server/api-utils'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 function About() {
@@ -18,7 +19,7 @@ function About() {
           <div className={` mx-auto pt-10 pb-6 flex flex-col-reverse xl:flex-row`} >
             <div className="flex items-center justify-center w-full">
                   <div>
-                    <p className="z-50 pb-8 text-3xl md:text-6xl font-extrabold text-center text-white uppercase">
+                    <p className="z-50 pb-8 text-3xl font-extrabold text-center text-white uppercase md:text-6xl">
                       About Us
                     </p>
                   </div>
@@ -43,8 +44,8 @@ function About() {
             <button className='p-3 text-white bg-blue-700 rounded-md mt-7'>Learn More<MoveRight className='inline-block pl-2'/></button>
           </div>
       </section>
-      {/* <section>
-        <div>
+      {/* <section className='flex '>
+        <div className='w-1/2'>
           <p>Who is Kairaa?</p>
           <h1>Kairaa Is A Tech Company</h1>
           <p>Kairaa is the best company for serving tech solutions. We'll develop enterprise solutions using web 3.0 technologies. 
@@ -56,9 +57,23 @@ function About() {
               Our solutions are custom-tailored to your industry,
              so we make it easy to implement the right solution for your business.</p>
 
-          <button onClick={()=>(redirect('/contact'))}>Learn about Kairaa</button>
+          <Link href={''}>Know More</Link>
         </div>
-        <div></div>
+        <div className='flex'>
+        <Image 
+          className='hidden rounded-lg md:flex'
+            src="/about/about_6.png"
+            width={200}
+            height={200}
+            alt="Picture of the author"/>
+            <Image 
+          className='hidden rounded-lg md:flex'
+            src="/about/about_5.png"
+            width={300}
+            height={300}
+            alt="Picture of the author"/>
+
+        </div>
 
       </section> */}
 
