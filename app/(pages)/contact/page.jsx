@@ -67,8 +67,7 @@ function Contact() {
         <section >
           <div className='justify-between px-10 md:flex md:px-20'>
             <div>
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7648190412674!2d80.16218697428296!3d12.922831587388082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424bead677b3c9a5%3A0x9f8bd89bdca64146!2sKairaa%20Tech%20serve%20pvt%20ltd!5e0!3m2!1sen!2sin!4v1708402923939!5m2!1sen!2sin"  height="580" className='bottom-0 md:w-1/2 lg:w-[600px]' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2646.915494022643!2d76.9501719398783!3d11.005770379366965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859ec698f3dc1%3A0xc0ad951fb5edb38c!2sKairaa%20Tech%20serve%20pvt%20ltd!5e0!3m2!1sen!2sin!4v1710936603899!5m2!1sen!2sin"  height="580" className='bottom-0 md:w-1/2 lg:w-[600px]' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <Form/>
           </div>
