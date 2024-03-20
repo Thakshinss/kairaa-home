@@ -16,7 +16,7 @@ function Header() {
         <div className='p-3 rounded-lg'>
           <Image 
           className='hidden rounded-lg md:flex'
-            src="/home2.jpeg"
+            src="/homee.png"
             width={400}
             height={300}
             alt="Picture of the author"/>
