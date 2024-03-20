@@ -10,7 +10,7 @@ function Header() {
             <div className='pt-10 text-center '>
                 <h1 className='text-4xl font-extrabold text-center md:text-5xl'>Discover Blockchain Technology with <span className='text-blue-700 '>Kairaa Academy</span> Online Courses.</h1>
                 <p className='pt-10 md:text-lg'>Kairaa Academy is the leading provider of online blockchain courses. We offer a wide range of courses to meet the needs of students of all levels of experience, from beginners to advanced learners.</p>
-                <Link href='/contact' className='flex items-center justify-center gap-2 p-4 mt-16 text-center text-white bg-blue-600'>Explore Courses <MoveRight /></Link>
+                <Link href='/courses' className='flex items-center justify-center gap-2 p-4 mt-16 text-center text-white bg-blue-600'>Explore Courses<MoveRight /></Link>
             </div>
         </div>
         <div className='p-3 rounded-lg'>
