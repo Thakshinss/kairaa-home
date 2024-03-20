@@ -24,7 +24,7 @@ function Explore() {
             <Image
             className='rounded-lg'
             src={course.img}
-            width={300}
+            width={400}
             height={300}
             alt="Picture of the author"/>
             <div className='p-4'>
