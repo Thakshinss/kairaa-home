@@ -4,7 +4,7 @@ const courses = [
       name:"HTML ,CSS,JavaScript",
       description:'A Comprehensive Guide for Beginners interested in learning HTML, CSS, & JavaScript to Build Interactive Web Pages.',
       duration:"90 hours",
-      img:"/course/htmlcss.png",
+      img:"/course/html.png",
       topics:[
         {
           id:1,
@@ -226,7 +226,7 @@ const courses = [
       name:"C and C++ COURSE",
       description:"C Programming and C++ Programming Learn both at your own pace",
       duration:"",
-      img:"/course/c++.jpeg",
+      img:"/course/C++.png",
       topics:[
         {
           id:1,
@@ -513,7 +513,7 @@ const courses = [
       name:"PHP course",
       description:"The modern PHP course with a project, challenges and theory. Includes SQL and MVC Framework. Get started with PHP 8!",
       duration:"",
-      img:'/course/php.png',
+      img:'/course/PHP.png',
       topics:[
         {
           id:1,
@@ -665,7 +665,7 @@ const courses = [
       name:"Advanced Java Training",
       description:"Acquire Key Java Skills: From Basics to Advanced Programming &amp; Certification - Start Your Dev Career",
       duration:"",
-      img:'/course/java.jpg',
+      img:'/course/java.png',
       topics:[
         {
           id:1,
@@ -1419,8 +1419,8 @@ const courses = [
       name:"Flutter",
       description:"A Complete Guide to the Flutter SDK &amp; Flutter Framework for building native iOS and Android apps",
       duration:"",
-      img:"/course/flutter.jpeg",
-      topics:[
+      img:"/course/Flutter.png",
+      topics:[  
         {
           id:1,
           name:'Introduction to Flutter',
@@ -1677,7 +1677,7 @@ const courses = [
       name:"Fundamentals of Blockchain",
       description:'Learn everything you need to know about cryptocurrency and blockchain, including investing, mining and much more!',
       duration:"90 hours",
-      img:"/course/blockchain.jpg",
+      img:"/course/Blockchain.png", 
       topics:[
         {
           id:1,
