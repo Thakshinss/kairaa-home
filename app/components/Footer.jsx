@@ -52,7 +52,7 @@ const address = [
 
 function Footer() {
   return (
-    <footer className='px-6 pt-10 pb-10 text-center text-white bg-blue-900 md:px-20'>
+    <footer className='px-6 pt-10 pb-10 font-sans text-center text-white bg-blue-900 md:px-20'>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4'>
         <div className='w-full pr-4 text-left'>
           <Title>About Us</Title>
