@@ -1,14 +1,18 @@
-import Image from "next/image";
-import Link from "next/link";
-import Features from "./ui/Features";
-import Explore from "./ui/Explore";
-import Header from "./ui/Header";
+// import Image from "next/image";
+// import Link from "next/link";
+// import Features from "./ui/Features";
+// import Explore from "./ui/Explore";
+// import Header from "./ui/Header";
 
-import Legacy from "./ui/Legacy";
-import About from "./(pages)/about/page";
+// import Legacy from "./ui/Legacy";
+// import About from "./(pages)/about/page";
+import Head from "next/head";
 import { redirect } from "next/navigation";
 
 export default function Home() {
+  <Head>
+    <link rel='icon' href='/favicon.ico' />
+  </Head>
   redirect('/home');
   // return (
   //   <main className="flex flex-col items-center justify-between min-h-screen">

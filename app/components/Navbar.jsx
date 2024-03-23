@@ -64,6 +64,10 @@ const Navbar = () => {
           ))
         }
       </ul>
+      <ul className='flex gap-3 '>
+        <button className='p-2 border-2 border-blue-300 rounded-lg'>Log In</button>
+        <button className='p-2 text-white bg-blue-400 border-2 border-blue-300 rounded-lg'>Sign Up</button>
+      </ul>
       <ul className='md:hidden'>
         <Menu onClick={()=>{
           setIsOpen(!isOpen);
